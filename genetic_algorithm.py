@@ -1,7 +1,9 @@
 import requests
 import random
 
-website="http://163.117.164.219/age/test?c="
+IP = "unknown for security reasons"
+
+website="http://"+ IP + "/age/test?c="
 
 def eval_chromosome(chromosome):
     """
